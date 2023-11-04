@@ -23,7 +23,7 @@
 
 ## 📖 React App <a name="about-project"></a>
 
-**React App** is the user-facing component of the application. It integrates with the Rails API, making asynchronous calls to fetch and display random greetings to users..<br>**Here is the [link]() for the backend.**
+**React App** is the user-facing component of the application. It integrates with the Rails API, making asynchronous calls to fetch and display random greetings to users..<br>**Here is the [link](https://github.com/abdozayan12/app-backend) for the backend.**
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -65,7 +65,7 @@ git clone https://github.com/abdozayan12/react-frontend.git
 Install this project with:
 
 ```bash
-  cd hello-rails-front-end
+  cd react-frontend
   npm install
 ```
 
@@ -77,7 +77,10 @@ it will install the required gemfile for running the project
 
 ## 👥 Author <a name="author"></a>
 
+👤 **Abd elhakim Zayan**
 
+- GitHub: [@Abd elhakim Zayan](https://github.com/abdozayan12)
+- LinkedIn: [@Abd elhakim Zayan](https://www.linkedin.com/in/abdozayan/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
