@@ -10,16 +10,17 @@ function Greetings() {
     dispatch(fetchGreetings());
   }, [dispatch]);
 
+  const getRandomGreeting = () => {
+    if (greetingsCont.length > 0) {
+      const randomIndex = Math.floor(Math.random() * greetingsCont.length);
+      return greetingsCont[randomIndex].greeting;
+    }
+    return '';
+  };
+
   return (
     <div>
-      {greetingsCont.length > 0 && (
-        <h2>
-          {
-            greetingsCont[Math.floor(Math.random() * greetingsCont.length)]
-              .greeting
-          }
-        </h2>
-      )}
+      <h2>{getRandomGreeting()}</h2>
     </div>
   );
 }
