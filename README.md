@@ -68,8 +68,15 @@ Install this project with:
   cd react-frontend
   npm install
 ```
+### Usage
 
-it will install the required gemfile for running the project
+Run this project with:
+
+``` 
+   npm start
+```
+
+it will install the required dependencies for running the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
