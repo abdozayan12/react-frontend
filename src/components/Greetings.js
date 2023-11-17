@@ -4,25 +4,14 @@ import { fetchGreetings } from './store/greetingsSlice';
 
 function Greetings() {
   const dispatch = useDispatch();
-  const greetingsCont = useSelector((state) => state.greetings.greetings);
-
+  const { greeting } = useSelector((state) => state.greetings.greetings);
   useEffect(() => {
     dispatch(fetchGreetings());
   }, [dispatch]);
-
-  const getRandomGreeting = () => {
-    if (greetingsCont.length > 0) {
-      const randomIndex = Math.floor(Math.random() * greetingsCont.length);
-      return greetingsCont[randomIndex].greeting;
-    }
-    return '';
-  };
-
   return (
     <div>
-      <h2>{getRandomGreeting()}</h2>
+      <h2>{greeting}</h2>
     </div>
   );
 }
-
 export default Greetings;
